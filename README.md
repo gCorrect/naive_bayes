@@ -24,9 +24,7 @@
    - From the terminal cd to the project path where Perceptron2D.py and Perceptron3D.py are placed  
    Type:
    
-     python Perceptron2D.py <br/>
-   or <br/>
-     python Perceptron3D.py
-   
+     python naive_bayes.py <br/>
+     
    Voilà!!!  
    That's it...
