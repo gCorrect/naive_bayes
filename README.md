@@ -1,4 +1,4 @@
-﻿# naive_bayes
+﻿# naive_bayes on play_tennis.csv 
  I make use of MySQL, specifically phpMyAdmin to munipulate data. So after you have downloaded the project in order to run the code you shall have installed a server that supports MySQL and phpMyAdmin like XAMPP, MAMP etc. I personally prefer XAMPP as i find it more convinient to use.
 
  It is very easy to load data from the server.<br> 
