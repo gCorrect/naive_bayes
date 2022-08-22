@@ -18,7 +18,7 @@
          naive_bayes 
          <br> (exactly as written. include underscore(_) also) 
       - Choose the naive_bayes database -> push import button
-      - From file to import -> choose file ( perceptron.sql ) -> import
+      - From file to import -> choose file ( naive_bayes.sql ) -> import
  
  Now your database should be ready to use.
  
