@@ -1,7 +1,7 @@
 import mysql.connector
 import sys, os
-# sys.path.append(os.path.join(os.path.dirname(__file__), '', 'libraries'))
-sys.path.append(r'C:/Users/nanas/python_libs')
+sys.path.append(os.path.join(os.path.dirname(__file__), '', 'libraries'))
+# sys.path.append(r'C:/Users/nanas/python_libs')
 from operations import *
 from functions import *
 # 2D---------------------------------
