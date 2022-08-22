@@ -6,22 +6,22 @@
  After XAMPP installation. Start the apache server and MySQL database. <br/> <br/>
  ![Screenshot (6)](https://user-images.githubusercontent.com/109686747/184480651-c7da150f-5cab-40de-b3bc-d40f29f689da.png)
 - Step 2 <br/>
-  In your browser url type address : <br/> <br/>
+  In your browser type url-address : <br/> <br/>
   localhost/phpmyadmin/ <br/> <br/>
   This action while open the phpMyAdmin panel. <br/> <br/>
   ![Screenshot (7)](https://user-images.githubusercontent.com/109686747/184489989-8f09840c-0198-4f15-95ac-1279c07f02c3.png)
 
-   Inside project there is a "data" folder and inside that folder the <u>naive_bayes.sql</u> file. This file creates some tables containing all the data_set needed for the perceptron training.
+   Inside project there is a "data" folder and inside that folder the <u>naive_bayes.sql</u> file. This file creates some tables containing all the data_set needed for the project.
    - Step 3
    - From phpMyAdmin panel:
-      - Create a new database and name it perceptron
-      - Choose the percetron database -> push import button
+      - Create a new database and name it: naive_bayes (exactly as written. include underscore(_) also) 
+      - Choose the naive_bayes database -> push import button
       - From file to import -> choose file ( perceptron.sql ) -> import
  
  Now your database should be ready to use.
  
  In order to run the code: 
-   - From the terminal cd to the project path where Perceptron2D.py and Perceptron3D.py are placed  
+   - From the terminal cd to the project path where naive_bayes.py file is placed  
    Type:
    
      python naive_bayes.py <br/>
