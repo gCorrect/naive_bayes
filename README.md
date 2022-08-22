@@ -14,7 +14,9 @@
    Inside project there is a "data" folder and inside that folder the "naive_bayes.sql" file. This file creates some tables containing all the data_set needed for the project.
    - Step 3
    - From phpMyAdmin panel:
-      - Create a new database and name it: naive_bayes (exactly as written. include underscore(_) also) 
+      - Create a new database and name it: <br> 
+         naive_bayes 
+         <br> (exactly as written. include underscore(_) also) 
       - Choose the naive_bayes database -> push import button
       - From file to import -> choose file ( perceptron.sql ) -> import
  
