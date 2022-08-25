@@ -3,9 +3,9 @@ import pandas as pd
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), '', 'libraries'))
 # sys.path.append(r'C:/Users/nanas/python_libs')
-from operations import *  
-from loaddata import *  
-from functions import *
+from libraries.operations import *  
+from libraries.loaddata import *  
+from libraries.functions import *
 #------DATA------------
 data=pd.read_csv('data/play_tennis.csv')
 #------VARIABLES-------
@@ -27,7 +27,6 @@ p_feat_given_no = p_feat_given_result(database, tablename, p_feats, p_feat_inter
 input_feats = get_inputs(data.columns, database, tablename)
 p_res_given_ev(data.columns, input_feats, p_feats, p_feat_given_yes, res_val="Yes")
 p_res_given_ev(data.columns, input_feats, p_feats, p_feat_given_no, res_val="No")
-
 
 print_title("END YEAH!!!") 
 
